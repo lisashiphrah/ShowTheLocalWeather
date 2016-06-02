@@ -1,0 +1,62 @@
+<html>
+<head>
+	<title>Show the Local Weather</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js"></script>
+	<script src="scripts.js"></script>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+	<link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/1.3.2/css/weather-icons.min.css"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+	<body ng-app="Weather">
+		<div class="container" ng-controller="MainCtrl">
+			<div class="row">
+				<div class="icon sun-shower hide ">
+					<div class="cloud"></div>
+					<div class="sun">
+						<div class="rays"></div>
+					</div>
+					<div class="rain"></div>
+				</div>
+				<div class="icon thunder-storm hide thunderstom">
+					<div class="cloud"></div>
+					<div class="lightning">
+						<div class="bolt"></div>
+						<div class="bolt"></div>
+					</div>
+				</div>
+				<div class="icon cloudy hide clouds">
+					<div class="cloud"></div>
+					<div class="cloud"></div>
+				</div>
+				<div class="icon flurries hide snow">
+					<div class="cloud"></div>
+					<div class="snow">
+						<div class="flake"></div>
+						<div class="flake"></div>
+					</div>
+				</div>
+				<div class="icon sunny hide clear">
+					<div class="sun">
+						<div class="rays"></div>
+					</div>
+				</div>
+				<div class="icon rainy hide rain">
+					<div class="cloud"></div>
+					<div class="rain"></div>
+				</div>
+			</div>
+			<div class="status">
+				<p>{{Data.des}}</p>
+				<p>{{Data.city}}, {{Data.country}}</p>
+
+				<p>{{Data.temp}} &#176;
+					<span class="temp" ng-click="Data.sys()">{{Data.unit}}</span>
+				</p>
+
+			</div>
+		</div>
+	</body>
+</body>
+</html>
