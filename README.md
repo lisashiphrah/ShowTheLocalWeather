@@ -14,4 +14,5 @@ Local weather developed by me as Free Code Camp #2 Intermediate Front End Develo
   <li>You can get feedback on your project by sharing it with your friends on Facebook.</li>
 </ol>
 
+<br/>
 <img src="page.pnd.png" />
