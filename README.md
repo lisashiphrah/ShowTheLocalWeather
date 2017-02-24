@@ -1,4 +1,7 @@
 # ShowTheLocalWeather
+
+:sunny: :snowflake: :cloud: :umbrella: :cyclone::zap:
+
 Local weather developed by me as Free Code Camp #2 Intermediate Front End Development Projects.
 
 <ol>
