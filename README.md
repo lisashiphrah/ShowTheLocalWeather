@@ -1,3 +1,5 @@
+<a href="https://codeclimate.com/github/lisashiphrah/ShowTheLocalWeather/maintainability"><img src="https://api.codeclimate.com/v1/badges/03c9427410321caabbf9/maintainability" /></a>
+
 # ShowTheLocalWeather
 
 :sunny: :snowflake: :cloud: :umbrella: :cyclone::zap:
